@@ -2,11 +2,11 @@
 Script for preventing some FailRP
 
 # :hammer_and_wrench: Features
-Speed limit for all cars\
-Emergency Class can have a higher speed limit\
-Anti VDM\
-Disable Vehicle Weapons\
-Everything is customizable in the config.lua
+- Speed limit for all cars\
+- Emergency Class can have a higher speed limit\
+- Anti VDM\
+- Disable Vehicle Weapons\
+- Everything is customizable in the config.lua
 
 # :inbox_tray: Download
 [Download via Github](https://github.com/Swqppingg/AntiFailRP)
