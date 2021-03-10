@@ -46,8 +46,10 @@ end
 if Config.disablevehicleweapons then
 Citizen.CreateThread(function()
     while true do
+	local wait = 500
         local playerped = GetPlayerPed(-1)
         if IsPedInAnyVehicle(playerped, false) then
+			wait = 0
 			local veh = GetVehiclePedIsUsing(playerped)
 			if DoesVehicleHaveWeapons(veh) == 1 and vehicleweaponhash ~= 1422046295 then
 				vehicleweapon, vehicleweaponhash = GetCurrentPedVehicleWeapon(playerped)
@@ -56,7 +58,7 @@ Citizen.CreateThread(function()
 				end
 			end
 		end
-        Citizen.Wait(0)
+        Citizen.Wait(wait)
 	end
 end)
 end
