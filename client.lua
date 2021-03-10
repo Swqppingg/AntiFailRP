@@ -2,11 +2,11 @@
 if Config.speedlimiter then
 Citizen.CreateThread(function()
 	while true do 
-		Citizen.Wait(10)
 		local ped = PlayerPedId()
 		local vehicle = GetVehiclePedIsIn(ped, false)
 		local speed = GetEntitySpeed(vehicle)
         local class = GetVehicleClass(vehicle)
+		Citizen.Wait(20)
 			if (ped) then
                 if class == 16 then
                     -- planes
@@ -37,7 +37,7 @@ if Config.antivdm then
 Citizen.CreateThread(function()
     while true do
         SetWeaponDamageModifier(-1553120962, 0.0)
-        Wait(0)
+        Citizen.Wait(10)
     end
 end)
 end
