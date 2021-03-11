@@ -15,6 +15,10 @@ Script for preventing some FailRP
 1. Add the **AntiFailRP** folder to your FiveM resources directory.
 2. Edit your server.cfg and add “ensure **AntiFailRP**”
 
+# :wrench: Support
+Open an issue or join my discord server for support
+https://discord.gg/X3Mb74Phnq
 
+---------------------------------------------------
 
 If you have any issues or suggestions please put them below.
